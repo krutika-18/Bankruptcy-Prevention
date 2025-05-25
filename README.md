@@ -34,5 +34,5 @@ This project focuses on predicting whether a company will go bankrupt based on v
 - Matplotlib, Seaborn
 
 ## Author
-**Krutika S**  
+**Krutika Shellgi**  
 [GitHub](https://github.com/krutika-18) | [LinkedIn](https://www.linkedin.com/in/kritika-shellagi/)
