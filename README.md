@@ -1,38 +1,47 @@
-# Bankruptcy Prevention Project
+# ⚡ Forecasting Energy Consumption
 
-## Overview
-This project focuses on predicting whether a company will go bankrupt based on various financial and operational risk factors. It uses machine learning techniques to analyze company data and build a predictive model that can help businesses identify bankruptcy risk early.
+This project focuses on predicting future energy consumption using historical hourly electricity usage data. It explores patterns across seasons, hours, and weekdays to build a robust forecasting model that can help in energy demand planning.
 
-## Objective
-- Build a binary classification model to predict bankruptcy (Yes/No).
-- Use financial and operational risk features for accurate prediction.
-- Deploy the model via an interactive web app for easy use.
+---
 
-## Dataset
-- The dataset contains 250 companies with 7 features related to:
-  - Industrial Risk
-  - Management Risk
-  - Financial Flexibility
-  - Credibility
-  - Competitiveness
-  - Operating Risk
-  - Bankruptcy status (target variable)
+## 🚀 Live Demo
 
-## Approach
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- Feature selection and engineering
-- Model training using Logistic Regression
-- Model evaluation and validation
-- Deployment using Streamlit for real-time prediction
+🔗 [Streamlit App Link](https://bankruptcy-prevention-app.streamlit.app/)  
+*Replace this link after deploying on Streamlit Cloud.*
 
-## Technologies Used
+---
+
+## 📊 Features
+
+- Time series forecasting for energy demand
+- Interactive visualizations for trends and insights
+- Daily, hourly, and seasonal energy usage analysis
+- Trained regression model for future predictions
+
+---
+
+## 🛠️ Tech Stack
+
 - Python
-- pandas, NumPy
-- scikit-learn
 - Streamlit
-- Matplotlib, Seaborn
+- Pandas, NumPy
+- Matplotlib, Seaborn, Plotly
+- Scikit-learn
+- Joblib / Pickle
 
-## Author
+---
+
+## 📂 Dataset
+
+- **Source**: PJM Interconnection (Hourly Energy Consumption Data)
+- **Format**: CSV
+- **Frequency**: Hourly
+- **Target**: Megawatts consumed
+
+---
+
+## 👩‍💻 Author
+
 **Krutika Shellgi**  
-[GitHub](https://github.com/krutika-18) | [LinkedIn](https://www.linkedin.com/in/kritika-shellagi/)
+- GitHub: [@krutika-18](https://github.com/krutika-18)  
+- LinkedIn: [Krutika Shellgi](https://www.linkedin.com/in/kritika-shellagi/)
