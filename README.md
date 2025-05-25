@@ -1,22 +1,26 @@
-# ⚡ Forecasting Energy Consumption
+# 📂 Bankruptcy Prevention
 
-This project focuses on predicting future energy consumption using historical hourly electricity usage data. It explores patterns across seasons, hours, and weekdays to build a robust forecasting model that can help in energy demand planning.
+A machine learning project to predict whether a business is likely to go bankrupt based on key risk factors. This project uses logistic regression to classify companies into bankruptcy or non-bankruptcy categories based on financial and operational metrics.
 
 ---
 
 ## 🚀 Live Demo
 
-🔗 [Streamlit App Link](https://bankruptcy-prevention-app.streamlit.app/)  
-*Replace this link after deploying on Streamlit Cloud.*
+🔗 [Click here to open the Streamlit app](https://bankruptcy-prevention-app.streamlit.app)
 
 ---
 
 ## 📊 Features
 
-- Time series forecasting for energy demand
-- Interactive visualizations for trends and insights
-- Daily, hourly, and seasonal energy usage analysis
-- Trained regression model for future predictions
+- Predicts bankruptcy risk using:
+  - Industrial risk
+  - Management risk
+  - Financial flexibility
+  - Credibility
+  - Competitiveness
+  - Operating risk
+- User-friendly Streamlit interface
+- Interactive visualizations (Seaborn, Matplotlib, Plotly)
 
 ---
 
@@ -25,23 +29,14 @@ This project focuses on predicting future energy consumption using historical ho
 - Python
 - Streamlit
 - Pandas, NumPy
-- Matplotlib, Seaborn, Plotly
+- Seaborn, Matplotlib, Plotly
 - Scikit-learn
-- Joblib / Pickle
-
----
-
-## 📂 Dataset
-
-- **Source**: PJM Interconnection (Hourly Energy Consumption Data)
-- **Format**: CSV
-- **Frequency**: Hourly
-- **Target**: Megawatts consumed
+- Joblib
 
 ---
 
 ## 👩‍💻 Author
 
-**Krutika Shellgi**  
+**Krutika S**  
 - GitHub: [@krutika-18](https://github.com/krutika-18)  
 - LinkedIn: [Krutika Shellgi](https://www.linkedin.com/in/kritika-shellagi/)
